@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<group android:checkableBehavior="single"
+    android:id="@+id/grout_1">
+    <item android:title="我的"
+        android:icon="@drawable/navigation_1_1"/>
+    <item android:title="云贝中心"
+        android:icon="@drawable/navigation_1_2"/>
+    <item android:title="创作者中心"
+        android:icon="@drawable/navigation_1_3"/>
+</group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_2">
+        <item android:title="云村有票"
+            android:id="@+id/item_2_2"
+            android:icon="@drawable/navigation_2_1"/>
+        <item android:title="商城"
+            android:icon="@drawable/navigation_2_2"/>
+        <item android:title="游戏专区"
+            android:icon="@drawable/navigation_2_3"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_3">
+        <item android:title="设置"
+            android:id="@+id/N_7"
+            android:icon="@drawable/navigation_3_1"/>
+        <item android:title="个性装扮"
+            android:icon="@drawable/navigation_3_2"/>
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_4">
+        <item android:title="退出登录/关闭"
+            android:icon="@drawable/all"/>
+    </group>
+</menu>

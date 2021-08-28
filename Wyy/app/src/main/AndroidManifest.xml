@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wyy">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/net_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wyy">
+        <activity android:name=".main.mv.MvActivity"></activity>
+        <activity android:name=".main.music.CommentActivity" />
+        <activity android:name=".main.music.WordActivity" />
+        <activity android:name=".main.left.N_7_Activity" />
+        <activity android:name=".main.top.TopActivity" />
+        <activity android:name=".main.select.SelectActivity2" />
+        <activity android:name=".main.select.SelectActivity" />
+        <activity
+            android:name=".main.music.Music_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.music.MusicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.select.SelectKey"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.songs.SongListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.songs.SongActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.start.StartActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

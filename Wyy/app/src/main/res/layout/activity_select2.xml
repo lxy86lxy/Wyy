@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.select.SelectActivity2">
+
+    <SearchView
+        android:id="@+id/find_search"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/b"
+        android:padding="10dp"
+
+        android:showDividers="none" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/select2_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:layout_below="@+id/find_search"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.music.Music_Activity"
+    android:background="@drawable/all">
+
+    <ImageView
+        android:id="@+id/musicImage"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        android:gravity="center"
+        android:background="@drawable/all" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="475dp" />
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="535dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/music_radioButton_left"
+            android:layout_width="68dp"
+            android:layout_height="53dp"
+            android:background="@drawable/music1"
+            android:button="@null"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" " />
+
+        <CheckBox
+            android:id="@+id/music_radioButton_center"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bo_fang"
+            android:button="@null"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text=" " />
+
+        <RadioButton
+            android:id="@+id/music_radioButton_right"
+            android:layout_width="68dp"
+            android:layout_height="53dp"
+            android:background="@drawable/music3"
+            android:button="@null"
+            android:text=" " />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="416dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tv_progress"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginRight="304dp"
+        android:text="00:00" />
+
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="00:00" />
+
+    <Button
+        android:id="@+id/music_button_left"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="617dp"
+        android:background="@drawable/music_button_left" />
+
+    <Button
+        android:id="@+id/music_button_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="617dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/music_button_right" />
+
+</RelativeLayout>
